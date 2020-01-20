@@ -5,39 +5,30 @@ import "./Navbar.css";
 const Navbar = () => {
   return (
     <nav>
-      <div className="logo">
-        <ScrollTo selector={`#card${'home'}`}>
-          <h4>The Nav</h4>
-        </ScrollTo>
-      </div>
       <ul className="nav-links">
         <li>
-          <ScrollTo selector={`#card${'home'}`}>
-            <p>Home</p>
+          <ScrollTo selector={`#card${"home"}`}>
+            <button className="nav_button">HOME</button>
           </ScrollTo>
         </li>
-        <p>|</p>
         <li>
-          <ScrollTo selector={`#card${'about'}`}>
-            <p>About</p>
+          <ScrollTo selector={`#card${"about"}`}>
+            <button className="nav_button">ABOUT</button>
           </ScrollTo>
         </li>
-        <p>|</p>
         <li>
-          <ScrollTo selector={`#card${'skills'}`}>
-            <p>Skills</p>
+          <ScrollTo selector={`#card${"skills"}`}>
+            <button className="nav_button">SKILLS</button>
           </ScrollTo>
         </li>
-        <p>|</p>
-        <li>          
-          <ScrollTo selector={`#card${'projects'}`}>
-            <p>Projects</p>
-          </ScrollTo>
-        </li>
-        <p>|</p>
         <li>
-          <ScrollTo selector={`#card${'contact'}`}>
-            <p>Contact</p>
+          <ScrollTo selector={`#card${"projects"}`}>
+            <button className="nav_button">PROJECTS</button>
+          </ScrollTo>
+        </li>
+        <li>
+          <ScrollTo selector={`#card${"projects"}`}>
+            <button className="nav_button">CONTACT</button>
           </ScrollTo>
         </li>
       </ul>

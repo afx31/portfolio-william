@@ -1,21 +1,16 @@
-import React from 'react';
-import './Home.css';
+import React from "react";
+import "./Home.css";
 
 const Home = ({ card }) => {
-    // if (bgcolor) {
-    //     cardStyle.backgroundColor = bgcolor;
-    //   }
-    const id = `card${card}`;
-    return (
-        <div id={id} className="home">
-            <div>
-                <h2 className="about__text">William Mitchell</h2>
-                <p className="about__description">
-                    
-                </p>
-            </div>
-        </div>
-    );
+  const id = `card${card}`;
+  return (
+    <div id={id} className="home">
+      <div className="home_container">
+        <h2 className="home_heading_2">William Mitchell</h2>
+        <p className="home_description"></p>
+      </div>
+    </div>
+  );
 };
 
 export default Home;
