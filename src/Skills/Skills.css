@@ -1,5 +1,105 @@
 div.skills {
-    height: 100vh;
-    background-color: 1d1d1d;
-    padding: 20px, 10px, 10px, 10px;
+  height: 100vh;
+  background-color: #1d1d1d;
+}
+
+.skills_container {
+  background-color: #1d1d1d;
+  height: 100vh;
+  padding-top: 6rem;
+  /* padding-left: 1rem; */
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid red; */
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+.column_top {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+  padding-bottom: 5rem;
+}
+
+/* Remove extra left and right margins, due to padding */
+/* .row {
+  margin: 0 -5px;  
+} */
+
+/* Clear floats after the columns */
+/* .row:after {
+  content: "";
+  display: table;
+  clear: both;
+} */
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  background-color: #242424;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.5);
+  transition: transform 0.25s, box-shadow 0.25s;
+  border-radius: 1rem;
+}
+
+.card:hover {
+  transform: translateY(-1rem);
+  box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.6);
+}
+
+.card_header {
+  padding: 1rem;
+  flex: 0 0 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(12, 12, 12);
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.card_icon {
+  height: 5rem;
+  width: 5rem;
+  /* padding: 0.5rem; */
+}
+
+.card_description {  
+  padding: 1rem 3rem 1rem 3rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.card_heading_5 {
+  font-size: 2rem;
+  color: #227093;
+  font-weight: 300;
+}
+
+.card_description_text {
+  color: #e2e2e2;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-top: 0.5rem;
+  margin-bottom: auto;
 }

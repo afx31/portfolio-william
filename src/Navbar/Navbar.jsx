@@ -27,7 +27,7 @@ const Navbar = () => {
           </ScrollTo>
         </li>
         <li>
-          <ScrollTo selector={`#card${"projects"}`}>
+          <ScrollTo selector={`#card${"contact"}`}>
             <button className="nav_button">CONTACT</button>
           </ScrollTo>
         </li>

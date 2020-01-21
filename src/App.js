@@ -6,6 +6,7 @@ import About from "./About/About";
 import Skills from "./Skills/Skills";
 import Projects from "./Projects/Projects";
 import Contact from "./Contact/Contact";
+import Footer from "./Footer/Footer";
 
 // const navSlide = () => {
 //   const burger = document.querySelector('.burger');
@@ -26,6 +27,7 @@ function App() {
       <Skills card="skills" />
       <Projects card="projects" />
       <Contact card="contact" />
+      <Footer />
     </>
   );
 }

@@ -1,5 +1,28 @@
 div.projects {
     height: 100vh;
-    background-color: 1d1d1d;
-    padding: 20px, 10px, 10px, 10px;
+    background-color: #227044;
+}
+
+.projects_container {
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    padding-top: 20rem;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border: 1px solid red;
+}
+
+.projects_heading_2 {
+    font-size: 4rem;
+    font-weight: 300;
+    color: #e2e2e2;
+    padding: 2rem;
+}
+
+.projects_description {
+    font-size: 1.5rem;
+    color: #e2e2e2;
 }

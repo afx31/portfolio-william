@@ -1,10 +1,10 @@
 import React from "react";
 import "./About.css";
 
-const About = ({ card }) => {
+const About = ({card}) => {
   const id = `card${card}`;
   return (
-    <div id={id} className="about">
+    <div  id={id} className="about">
       <div className="about_container">
         <div class="about_image">
             <img 

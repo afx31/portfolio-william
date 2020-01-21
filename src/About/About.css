@@ -15,13 +15,13 @@ div.about {
   align-items: center;
   justify-content: center;
   /* padding: 150px; */
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .about_image {
   /* float: left; */
   display: inline-block;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   /* padding-top: 1rem; */
 }
 
@@ -30,7 +30,7 @@ div.about {
   display: inline-block;
   /* height: 60%; */
   width: 50%;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .about_heading_2 {

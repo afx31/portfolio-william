@@ -1,21 +1,16 @@
-import React from 'react';
-import './Projects.css';
+import React from "react";
+import "./Projects.css";
 
 const Projects = ({ card }) => {
-    // if (bgcolor) {
-    //     cardStyle.backgroundColor = bgcolor;
-    //   }
-    const id = `card${card}`;
-    return (
-        <div id={id} className="projects">
-            <div>
-                <h2 className="about__text">My Projects</h2>
-                <p className="about__description">
-                    
-                </p>
-            </div>
-        </div>
-    );
+  const id = `card${card}`;
+  return (
+    <div id={id} class="projects">
+      <div class="projects_container">
+        <h2 class="projects_heading_2">My Projects</h2>
+        <p class="projects_description">Content coming soon!</p>
+      </div>
+    </div>
+  );
 };
 
 export default Projects;
