@@ -36,7 +36,7 @@ const About = ({ card }) => {
           <div class="about_column">            
             <div class="about_card">
               <img
-                src={require("./icon-controller.png")}
+                src={require("../img/icon-controller.png")}
                 alt="Controller"
                 class="hobby-icons"
               />
@@ -47,7 +47,7 @@ const About = ({ card }) => {
           <div class="about_column">
             <div class="about_card">
               <img
-                src={require("./icon-steering-wheel.png")}
+                src={require("../img/icon-steering-wheel.png")}
                 alt="Steering Wheel"
                 class="hobby-icons"
               />
@@ -58,7 +58,7 @@ const About = ({ card }) => {
           <div class="about_column">
             <div class="about_card">
               <img
-                src={require("./icon-mt-fuji.png")}
+                src={require("../img/icon-mt-fuji.png")}
                 alt="Mt Fuji"
                 class="hobby-icons"
               />

@@ -81,5 +81,12 @@ div.about {
 .hobby-icons {
   width: 5rem;
   height: 5rem;
-  fill: black;
+}
+
+a:link {
+  color: #a33327;
+}
+
+a:visited {
+  color: #a33327;
 }

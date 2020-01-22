@@ -1,7 +1,11 @@
 div.home {
   height: 80vh;
-  /* background-color: #161616; */
-  background-color: grey;
+  background-image: url("../img/wallpaper.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .home_container {  
@@ -13,7 +17,6 @@ div.home {
   align-items: center;
   text-align: center;
   justify-content: center;
-  border: 1px solid red;
 }
 
 .home_heading_2 {

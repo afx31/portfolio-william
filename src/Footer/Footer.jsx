@@ -7,7 +7,7 @@ const Home = () => {
       <div className="footer_container">
         <footer class="base_footer">
           <p class="copyright">
-            &copy; Copyright 2020 by William Mitchell. All rights reserved.
+            &copy; William Mitchell 2020
           </p>
         </footer>
       </div>
