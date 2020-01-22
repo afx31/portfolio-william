@@ -1,6 +1,6 @@
 div.projects {
     height: 100vh;
-    background-color: #227044;
+    background-color: #314455;
 }
 
 .projects_container {
@@ -12,7 +12,6 @@ div.projects {
     align-items: center;
     text-align: center;
     justify-content: center;
-    border: 1px solid red;
 }
 
 .projects_heading_2 {

@@ -1,33 +1,36 @@
 div.skills {
   height: 100vh;
-  background-color: #1d1d1d;
+  background-color: #161616;
 }
 
 .skills_container {
-  background-color: #1d1d1d;
   height: 100vh;
-  padding-top: 6rem;
+  padding-top: 5rem;
   /* padding-left: 1rem; */
   margin-left: auto;
   margin-right: auto;
-  width: 80%;
+  width: 75%;
   align-items: center;
   justify-content: center;
   /* border: 1px solid red; */
 }
 
-/* Float four columns side by side */
-.column {
-  float: left;
-  width: 25%;
-  padding: 0 10px;
-}
-
 .column_top {
   float: left;
   width: 25%;
-  padding: 0 10px;
-  padding-bottom: 5rem;
+  padding: 0 9px;
+  padding-bottom: 2rem; 
+  display: flex;
+  justify-content: center;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 9px;
+  display: flex;
+  justify-content: center;
+  
 }
 
 /* Remove extra left and right margins, due to padding */
@@ -57,6 +60,8 @@ div.skills {
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.5);
   transition: transform 0.25s, box-shadow 0.25s;
   border-radius: 1rem;
+  padding-bottom: 5rem;
+  width: 90%;
 }
 
 .card:hover {
@@ -66,11 +71,11 @@ div.skills {
 
 .card_header {
   padding: 1rem;
-  flex: 0 0 30%;
+  /* flex: 0 0 30%; */
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(12, 12, 12);
+  background-color: rgb(27, 27, 27); /* rgb(12, 12, 12) */
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
 }
@@ -82,7 +87,7 @@ div.skills {
 }
 
 .card_description {  
-  padding: 1rem 3rem 1rem 3rem;
+  padding: 1rem 2rem 1rem 2rem;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -91,15 +96,15 @@ div.skills {
 }
 
 .card_heading_5 {
-  font-size: 2rem;
-  color: #227093;
+  font-size: 1.5rem;
+  color: #a33327; /* a33327  */
   font-weight: 300;
 }
 
 .card_description_text {
   color: #e2e2e2;
-  font-size: 1rem;
+  font-size: 0.9rem;
   line-height: 1.5;
-  margin-top: 0.5rem;
+  margin-top: 1.5rem;
   margin-bottom: auto;
 }

@@ -1,6 +1,6 @@
 import React from "react";
 import "./Skills.css";
-import icons from "../img/sprite.svg";
+import icons from "../img/svg/sprite.svg";
 
 const Skills = ({ card }) => {
   const id = `card${card}`;
@@ -19,7 +19,9 @@ const Skills = ({ card }) => {
               <div class="card_description">
                 <h5 class="card_heading_5">REACT</h5>
                 <p class="card_description_text">
-                  
+                  JavaScript is my favourite programming language out there thus
+                  far. Its flexibility combined with the number of frameworks
+                  and community support is fantastic.
                 </p>
               </div>
             </div>
@@ -56,7 +58,7 @@ const Skills = ({ card }) => {
               <div class="card_description">
                 <h5 class="card_heading_5">HTML5 & CSS3</h5>
                 <p class="card_description_text">
-                JavaScript is my favourite programming language out there thus
+                  JavaScript is my favourite programming language out there thus
                   far. Its flexibility combined with the number of frameworks
                   and community support is fantastic.
                 </p>
@@ -92,7 +94,7 @@ const Skills = ({ card }) => {
                 </svg>
               </div>
               <div class="card_description">
-                <h5 class="card_heading_5">JAVASCRIPT</h5>
+                <h5 class="card_heading_5">REACT NATIVE</h5>
                 <p class="card_description_text">
                   JavaScript is my favourite programming language out there thus
                   far. Its flexibility combined with the number of frameworks
@@ -124,7 +126,7 @@ const Skills = ({ card }) => {
             <div class="card">
               <div class="card_header">
                 <svg class="card_icon">
-                  <use xlinkHref={`${icons}#icon-html5`} />
+                  <use xlinkHref={`${icons}#icon-react-native-firebase`} />
                 </svg>
                 <svg class="card_icon">
                   <use xlinkHref={`${icons}#icon-css3`} />
@@ -145,7 +147,10 @@ const Skills = ({ card }) => {
             <div class="card">
               <div class="card_header">
                 <svg class="card_icon">
-                  <use xlinkHref={`${icons}#icon-html5`} />
+                  <use xlinkHref={`${icons}#icon-github`} />
+                </svg>
+                <svg class="card_icon">
+                  <use xlinkHref={`${icons}#icon-git`} />
                 </svg>
               </div>
               <div class="card_description">

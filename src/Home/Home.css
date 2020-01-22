@@ -1,9 +1,10 @@
 div.home {
-  height: 100vh;
-  background-color: #1d1d1d;
+  height: 80vh;
+  /* background-color: #161616; */
+  background-color: grey;
 }
 
-.home_container {
+.home_container {  
   height: 100vh;
   margin-left: auto;
   margin-right: auto;
@@ -12,16 +13,29 @@ div.home {
   align-items: center;
   text-align: center;
   justify-content: center;
-  /* border: 1px solid red; */
+  border: 1px solid red;
 }
 
 .home_heading_2 {
-    font-size: 4rem;
-    font-weight: 300;
-    color: #e2e2e2;
+  font-size: 3.8rem;
+  font-weight: 300;
+  letter-spacing: 3px;
+  color: #e2e2e2;
 }
 
 .home_description {
-    
+  padding: 1.5rem;
+  color: #e2e2e2;
 }
 
+.expandarrow_icon {
+  height: 4rem;
+  width: 4rem;
+  margin-top: 10rem;
+  fill: #e2e2e2;
+}
+
+.expandarrow_icon:hover {
+  cursor: pointer;
+  transform: translateY(-4px);
+}

@@ -12,7 +12,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   min-height: 60px;
-  background-color: #1c5b77;
+  background-color: #a33327;
   padding: 10px;
   position: fixed;
   width: 100%
@@ -42,7 +42,7 @@ nav {
   border: none;
   font-size: 1.4rem;
   color: #e2e2e2;
-  background-color: #1c5b77;
+  background-color: #a33327;
   text-transform: uppercase;
   transition: background-color 0.27s;
 }
@@ -52,7 +52,7 @@ nav {
 }
 
 .nav_button:hover {
-  background-color: #1f6585;
+  background-color: #9e5a63;
   cursor: pointer;
 }
 
