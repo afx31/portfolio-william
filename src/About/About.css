@@ -5,7 +5,7 @@ div.about {
   background-color: #161616;
 }
 
-.about_container {
+.about-container {
   height: 100vh;
   padding-top: 5rem;
   /* padding-left: 1rem; */
@@ -17,24 +17,24 @@ div.about {
   justify-content: center;
 }
 
-.avatar_image {
+.avatar-image {
   width: 20%;
   height: 20%;
 }
 
-.about_text {
+.about-text {
   display: inline-block;
   width: 50%;
 }
 
-.about_heading_2 {
+.about-heading-2 {
   font-size: 2rem;
   font-weight: 300;
   padding-bottom: 1.5rem;
   color: #e2e2e2;
 }
 
-.about_description {
+.about-description {
   font-size: 1rem;
   color: #e2e2e2;
   margin-top: 1.5rem;
@@ -43,7 +43,7 @@ div.about {
   line-height: 1.5;
 }
 
-.about_row {
+.about-row {
   background-color: #242424;
   padding-top: 1rem;
   width: 45%;
@@ -53,25 +53,25 @@ div.about {
   border-radius: 1rem;
 }
 
-.about_column {
+.about-column {
   display: inline-block;
   text-align: center;
   align-items: center;
   justify-content: center;
 }
 
-.about_card {
+.about-card {
   padding: 1rem;
 }
 
-.hobby_heading_2 {
+.hobby-heading-2 {
   font-size: 1.5rem;
   font-weight: 300;
   padding-bottom: 1.5rem;
   color: #e2e2e2;
 }
 
-.hobby_heading_5 {
+.hobby-heading-5 {
   font-size: 1rem;
   font-weight: 300;
   padding-top: 0.5rem;

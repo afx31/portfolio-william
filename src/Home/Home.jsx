@@ -6,14 +6,14 @@ import icons from "../img/svg/sprite.svg";
 const Home = ({ card }) => {
   const id = `card${card}`;
   return (
-    <div id={id} className="home">
-      <div className="home_container">
-        <h2 className="home_heading_2">HI, I'M WILL</h2>
-        <p className="home_description">
+    <div id={id} class="home">
+      <div class="home-container">
+        <h2 class="home-heading-2">HI, I'M WILL</h2>
+        <p class="home-description">
           Junior Web, Mobile & Application Developer
         </p>
         <ScrollTo selector={`#card${"about"}`}>
-          <svg class="expandarrow_icon">
+          <svg class="expandarrow-icon">
             <use xlinkHref={`${icons}#icon-expand-arrow`} />
           </svg>
         </ScrollTo>

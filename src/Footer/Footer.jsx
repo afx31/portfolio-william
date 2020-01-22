@@ -3,9 +3,9 @@ import "./Footer.css";
 
 const Home = () => {
   return (
-    <div className="footer">
-      <div className="footer_container">
-        <footer class="base_footer">
+    <div class="footer">
+      <div class="footer-container">
+        <footer class="base-footer">
           <p class="copyright">
             &copy; William Mitchell 2020
           </p>

@@ -3,7 +3,7 @@ div.footer {
   background-color: #1d1d1d;  
 }
 
-.footer_container {
+.footer-container {
   height: 15vh;
   margin-left: auto;
   margin-right: auto;
@@ -13,7 +13,7 @@ div.footer {
   justify-content: center;
 }
 
-.base_footer {
+.base-footer {
   background-color: rgb(12, 12, 12);
   padding: 4rem;
   font-size: 1rem;

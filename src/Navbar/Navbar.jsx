@@ -5,12 +5,12 @@ import "./Navbar.css";
 const Navbar = () => {
   return (
     <nav>
-      <div className="logo">
+      <div class="logo">
         <ScrollTo selector={`#card${"home"}`}>
-          <h4>WILLIAM MITCHELL</h4>
+          <h4>WILL MITCHELL</h4>
         </ScrollTo>
       </div>
-      <ul className="nav-links">
+      <ul class="nav-links">
         <li>
           <ScrollTo selector={`#card${"about"}`}>
             <p>ABOUT</p>
@@ -32,10 +32,10 @@ const Navbar = () => {
           </ScrollTo>
         </li>
       </ul>
-      {/* <div className="burger">
-            <div className="line1"></div>
-            <div className="line2"></div>
-            <div className="line3"></div>
+      {/* <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
         </div> */}
     </nav>
   );

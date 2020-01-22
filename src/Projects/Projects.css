@@ -3,7 +3,7 @@ div.projects {
     background-color: #314455;
 }
 
-.projects_container {
+.projects-container {
     height: 100vh;
     margin-left: auto;
     margin-right: auto;
@@ -14,14 +14,14 @@ div.projects {
     justify-content: center;
 }
 
-.projects_heading_2 {
+.projects-heading-2 {
     font-size: 4rem;
     font-weight: 300;
     color: #e2e2e2;
     padding: 2rem;
 }
 
-.projects_description {
+.projects-description {
     font-size: 1.5rem;
     color: #e2e2e2;
 }

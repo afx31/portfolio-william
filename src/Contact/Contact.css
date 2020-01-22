@@ -1,44 +1,52 @@
 div.contact {
-  height: 85vh;
-  background-color: #161616;
+  height: 60vh;
+  background-color: #2e2e2e;
 }
 
-.contact_container {
-  height: 85vh;
+.contact-container {
+  height: 60vh;
   margin-left: auto;
   margin-right: auto;
   width: 60%;
-  padding-top: 15rem;
+  padding-top: 5rem;
   align-items: center;
   text-align: center;
   justify-content: center;
   /* border: 1px solid red; */
 }
 
-.contact_heading_2 {
+.contact-heading-2 {
   font-size: 3rem;
   font-weight: 300;
   /* padding: 150px; */
   color: #e2e2e2;
 }
 
-.contact_text {
+.contact-text {
   font-size: 1rem;
   color: #e2e2e2;
   margin-top: 1.5rem;
   width: 100%;
   padding: 1rem;
+  padding-bottom: 3rem;
 }
 
-.contact_email {
+.contact-email {
   text-decoration: none;
   color: #a33327;
   font-size: 2rem;
   /* transition: transform 0.25s; */
 }
 
-.contact_icon {
-  fill: #a33327;
+.icon-linkedin {
+  fill: #0275b4;
+  height: 6rem;
+  width: 6rem;
+  margin: 1rem;
+}
+
+.icon-github {
+  fill: #161614;  /* #161614 */
   height: 6rem;
   width: 6rem;
   margin: 1rem;

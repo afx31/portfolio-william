@@ -6,161 +6,106 @@ const Skills = ({ card }) => {
   const id = `card${card}`;
   return (
     <div id={id} class="skills">
-      <div class="skills_container">
-        <div class="row">
-
-          <div class="column_top">
-            <div class="card">
-              <div class="card_header">
-                <svg class="card_icon">
-                  <use xlinkHref={`${icons}#icon-react`} />
-                </svg>
-              </div>
-              <div class="card_description">
-                <h5 class="card_heading_5">REACT</h5>
-                <p class="card_description_text">
-                  JavaScript is my favourite programming language out there thus
-                  far. Its flexibility combined with the number of frameworks
-                  and community support is fantastic.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="column_top">
-            <div class="card">
-              <div class="card_header">
-                <svg class="card_icon">
-                  <use xlinkHref={`${icons}#icon-javascript`} />
-                </svg>
-              </div>
-              <div class="card_description">
-                <h5 class="card_heading_5">JAVASCRIPT</h5>
-                <p class="card_description_text">
-                  JavaScript is my favourite programming language out there thus
-                  far. Its flexibility combined with the number of frameworks
-                  and community support is fantastic.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="column_top">
-            <div class="card">
-              <div class="card_header">
-                <svg class="card_icon">
+      <div class="skills-container">
+        <h1 class="skills-heading-1">MY SKILL SET</h1>
+        <div class="skills-section">
+          <div class="skills-row">
+            <h2 class="skills-heading-2">Web</h2>
+            <span class="divider-web"></span>
+            <ul class="item-list">
+              <li>
+                <svg class="item-icon">
                   <use xlinkHref={`${icons}#icon-html5`} />
                 </svg>
-                <svg class="card_icon">
+                <p>HTML5</p>
+              </li>
+              <li>
+                <svg class="item-icon">
                   <use xlinkHref={`${icons}#icon-css3`} />
                 </svg>
-              </div>
-              <div class="card_description">
-                <h5 class="card_heading_5">HTML5 & CSS3</h5>
-                <p class="card_description_text">
-                  JavaScript is my favourite programming language out there thus
-                  far. Its flexibility combined with the number of frameworks
-                  and community support is fantastic.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="column_top">
-            <div class="card">
-              <div class="card_header">
-                <svg class="card_icon">
-                  <use xlinkHref={`${icons}#icon-firebase`} />
-                </svg>
-              </div>
-              <div class="card_description">
-                <h5 class="card_heading_5">FIREBASE</h5>
-                <p class="card_description_text">
-                JavaScript is my favourite programming language out there thus
-                  far. Its flexibility combined with the number of frameworks
-                  and community support is fantastic.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        {/* //////////////////////////////////////////////////////////////////////////////////////////////// */}
-        <div class="row">
-          <div class="column">
-            <div class="card">
-              <div class="card_header">
-                <svg class="card_icon">
-                  <use xlinkHref={`${icons}#icon-react`} />
-                </svg>
-              </div>
-              <div class="card_description">
-                <h5 class="card_heading_5">REACT NATIVE</h5>
-                <p class="card_description_text">
-                  JavaScript is my favourite programming language out there thus
-                  far. Its flexibility combined with the number of frameworks
-                  and community support is fantastic.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="column">
-            <div class="card">
-              <div class="card_header">
-                <svg class="card_icon">
+                <p>CSS3</p>
+              </li>
+              <li>
+                <svg class="item-icon">
                   <use xlinkHref={`${icons}#icon-javascript`} />
                 </svg>
-              </div>
-              <div class="card_description">
-                <h5 class="card_heading_5">JAVASCRIPT</h5>
-                <p class="card_description_text">
-                  JavaScript is my favourite programming language out there thus
-                  far. Its flexibility combined with the number of frameworks
-                  and community support is fantastic.
-                </p>
-              </div>
-            </div>
+                <p>JAVASCRIPT</p>
+              </li>
+              <li>
+                <svg class="item-icon">
+                  <use xlinkHref={`${icons}#icon-react`} />
+                </svg>
+                <p>REACT</p>
+              </li>
+              <li>
+                <svg class="item-icon">
+                  <use xlinkHref={`${icons}#icon-firebase`} />
+                </svg>
+                <p>FIREBASE</p>
+              </li>
+              <li>
+                <svg class="item-icon">
+                  <use xlinkHref={`${icons}#icon-node-dot-js`} />
+                </svg>
+                <p>NODE.JS</p>
+              </li>
+            </ul>
           </div>
-
-          <div class="column">
-            <div class="card">
-              <div class="card_header">
-                <svg class="card_icon">
-                  <use xlinkHref={`${icons}#icon-react-native-firebase`} />
+{/* //////////////////////////////////////////////////////////////////////// */}
+          <div class="skills-row">
+            <h2 class="skills-heading-2">Mobile</h2>
+            <span class="divider-mobile"></span>
+            <ul class="item-list">
+              <li>
+                <svg class="item-icon">
+                  <use xlinkHref={`${icons}#icon-android`} />
                 </svg>
-                <svg class="card_icon">
-                  <use xlinkHref={`${icons}#icon-css3`} />
+                <p>ANDROID</p>
+              </li>
+              <li>
+                <svg class="item-icon">
+                  <use xlinkHref={`${icons}#icon-react`} />
                 </svg>
-              </div>
-              <div class="card_description">
-                <h5 class="card_heading_5">JAVASCRIPT</h5>
-                <p class="card_description_text">
-                  JavaScript is my favourite programming language out there thus
-                  far. Its flexibility combined with the number of frameworks
-                  and community support is fantastic.
-                </p>
-              </div>
-            </div>
+                <p>REACT NATIVE</p>
+              </li>
+              <li>
+                <svg class="item-icon">
+                  <use xlinkHref={`${icons}#icon-firebase`} />
+                </svg>
+                <p>RN FIREBASE</p>
+              </li>
+            </ul>
           </div>
-
-          <div class="column">
-            <div class="card">
-              <div class="card_header">
-                <svg class="card_icon">
-                  <use xlinkHref={`${icons}#icon-github`} />
+{/* //////////////////////////////////////////////////////////////////////// */}
+          <div class="skills-row">
+            <h2 class="skills-heading-2">Applications</h2>
+            <span class="divider-applications"></span>
+            <ul class="item-list">
+              <li>
+                <svg class="item-icon">
+                  <use xlinkHref={`${icons}#icon-csharp`} />
                 </svg>
-                <svg class="card_icon">
-                  <use xlinkHref={`${icons}#icon-git`} />
+                <p>C#</p>
+              </li>
+              <li>
+                <svg class="item-icon">
+                  <use xlinkHref={`${icons}#icon-.NET`} />
                 </svg>
-              </div>
-              <div class="card_description">
-                <h5 class="card_heading_5">VERSION CONTROL</h5>
-                <p class="card_description_text">
-                  JavaScript is my favourite programming languagt there thus
-                  far. Its flexibility combined with the 
-                </p>
-              </div>
-            </div>
+                <p>.NET</p>
+              </li>
+              <li>
+                <svg class="item-icon">
+                  <use xlinkHref={`${icons}#icon-javascript`} />
+                </svg>
+                <p>JAVASCRIPT</p>
+              </li>
+              <li>
+                <svg class="item-icon">
+                  <use xlinkHref={`${icons}#icon-react`} />
+                </svg>
+                <p>REACT</p>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
