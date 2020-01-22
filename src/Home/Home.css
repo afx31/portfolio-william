@@ -8,7 +8,7 @@ div.home {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-.home-container {  
+.home-container {
   height: 100vh;
   margin-left: auto;
   margin-right: auto;
@@ -41,4 +41,15 @@ div.home {
 .expandarrow-icon:hover {
   cursor: pointer;
   transform: translateY(-4px);
+}
+
+@media only screen and (max-width: 768px) {
+  .home-container {
+    padding-top: 10rem;
+    width: 80%;
+  }
+
+  .expandarrow-icon {
+    margin-top: 5rem;
+  }
 }

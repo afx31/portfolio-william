@@ -46,8 +46,37 @@ div.contact {
 }
 
 .icon-github {
-  fill: #161614;  /* #161614 */
+  fill: #161614; /* #161614 */
   height: 6rem;
   width: 6rem;
   margin: 1rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .contact-container {
+    width: 100%;
+  }
+
+  .contact-heading-2 {
+    font-size: 2rem;
+  }
+
+  .contact-text {
+    font-size: 0.89em;
+    padding-bottom: 1rem;
+  }
+
+  .contact-email {
+    font-size: 1.5rem;
+  }
+
+  .icon-linkedin {
+    height: 4rem;
+    width: 4rem;
+  }
+
+  .icon-github {
+    height: 4rem;
+    width: 4rem;
+  }
 }

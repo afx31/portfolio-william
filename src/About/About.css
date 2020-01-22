@@ -90,3 +90,38 @@ a:link {
 a:visited {
   color: #a33327;
 }
+
+@media only screen and (max-width: 768px) {
+  .about-container {
+    width: 100%;
+  }
+
+  .about-text {
+    width: 100%;
+    margin-top: -1.5rem;
+  }
+
+  .about-description {
+    font-size: 0.8rem;
+  }
+
+  .about-row {
+    width: 90%;
+    padding-top: 0.5rem;
+    margin-top: 0;
+  }
+
+  .hobby-heading-2 {
+    font-size: 1.2rem;
+    padding-bottom: 0;
+  }
+
+  .about-card {
+    padding: 0.5rem;
+  }
+
+  .hobby-icons {
+    width: 4rem;
+    height: 4rem;
+  }
+}

@@ -1,6 +1,6 @@
 div.footer {
   height: 15vh;
-  background-color: #1d1d1d;  
+  background-color: #1d1d1d;
 }
 
 .footer-container {
@@ -19,4 +19,10 @@ div.footer {
   font-size: 1rem;
   color: #e2e2e2;
   text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .base-footer {
+    font-size: 0.8rem;
+  }
 }

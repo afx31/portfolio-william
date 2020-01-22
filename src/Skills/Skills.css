@@ -54,12 +54,14 @@ div.skills {
 
 .skills-section {
   padding: 15px 100px 100px 100px;
+  /* border: 1px solid red; */
 }
 
 .skills-row {
   float: left;
   text-align: left;
   width: 80%;
+  /* border: 1px solid red; */
 }
 
 .item-list {
@@ -96,10 +98,61 @@ div.skills {
 }
 
 /* Responsive columns */
-/* @media screen and (max-width: 600px) {
-  .column {
+
+@media only screen and (max-width: 768px) {
+  .skills-container {
     width: 100%;
-    display: block;
-    margin-bottom: 20px;
+    /* justify-content: space-around; */
   }
-} */
+
+  .skills-heading-1 {
+    /* margin-top: -1rem; */
+    font-size: 2rem;
+    padding-bottom: 0;
+  }
+
+  .skills-section {
+    height: 100%; /* not sure on this one? */
+    float: left;
+    padding: 10px;
+  }
+
+  .skills-row {
+    width: 100%;
+  }
+
+  .skills-heading-2 {
+    font-size: 1.5rem;
+  }
+
+  .item-list {
+    /* text-align: center; */ /* To certain skill set icons */
+  }
+
+  .item-list li {
+    padding: 0.5rem;
+    margin: 0.5rem 0.5rem 0.5rem 0;
+  }
+
+  .item-list p {
+    font-size: 0.8rem;
+    padding-top: 4px;
+  }
+
+  .item-icon {
+    height: 3.5rem;
+    width: 3.5rem;
+  }
+
+  .divider-web {
+    width: 80px;
+  }
+
+  .divider-mobile {
+    width: 110px;
+  }
+
+  .divider-applications {
+    width: 170px;
+  }
+}

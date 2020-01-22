@@ -1,27 +1,33 @@
 div.projects {
-    height: 100vh;
-    background-color: #314455;
+  height: 100vh;
+  background-color: #314455;
 }
 
 .projects-container {
-    height: 100vh;
-    margin-left: auto;
-    margin-right: auto;
-    width: 60%;
-    padding-top: 20rem;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
+  height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  padding-top: 20rem;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
 }
 
 .projects-heading-2 {
-    font-size: 4rem;
-    font-weight: 300;
-    color: #e2e2e2;
-    padding: 2rem;
+  font-size: 4rem;
+  font-weight: 300;
+  color: #e2e2e2;
+  padding: 2rem;
 }
 
 .projects-description {
-    font-size: 1.5rem;
-    color: #e2e2e2;
+  font-size: 1.5rem;
+  color: #e2e2e2;
+}
+
+@media only screen and (max-width: 768px) {
+  .projects-container {
+    width: 100%;
+  }
 }
