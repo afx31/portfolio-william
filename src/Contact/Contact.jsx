@@ -17,7 +17,7 @@ const Contact = ({ card }) => {
         </a>
         <div class="contact-text">You can also find me here:</div>
         <div>
-          <a href="www.linkedin.com/in/william-mitchell-243a8310a/">
+          <a href="https://www.linkedin.com/in/wmitchell2/">
             <svg class="icon-linkedin">
               <use xlinkHref={`${icons}#icon-linkedin`} />
             </svg>

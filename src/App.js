@@ -1,5 +1,5 @@
-import React from "react";
-//import './App.css';
+import React, { useEffect } from "react";
+import "./App.css";
 import Navbar from "./Navbar/Navbar";
 import Home from "./Home/Home";
 import About from "./About/About";
@@ -8,19 +8,36 @@ import Projects from "./Projects/Projects";
 import Contact from "./Contact/Contact";
 import Footer from "./Footer/Footer";
 
-// const navSlide = () => {
-//   const burger = document.querySelector('.burger');
-//   const nav = document.querySelector('.nav-links');
+const navSlide = () => {
+  const burger = document.querySelector(".burger");
+  const nav = document.querySelector(".nav-links");
+  const navLinks = document.querySelectorAll(".nav-links li");
 
-//   burger.addEventListener('click', () => {
-//     nav.classList.toggle('nav-active');
-//   });
-// }
-//  navSlide();
+  burger.addEventListener("click", () => {
+    // Toggle Nav
+    nav.classList.toggle("nav-active");
+
+    // Animate Links
+    navLinks.forEach((link, index) => {
+      if (link.style.animation) {
+        link.style.animation = "";
+      } else {
+        link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7 + 0.3}s`;
+      }
+    });
+
+    // Burger Animation
+    burger.classList.toggle("toggle");
+  });
+};
 
 function App() {
+  useEffect(() => {
+    navSlide();
+  });
+
   return (
-    <>
+    <div class="app-container">
       <Navbar cards={5} />
       <Home card="home" />
       <About card="about" />
@@ -28,7 +45,7 @@ function App() {
       <Projects card="projects" />
       <Contact card="contact" />
       <Footer />
-    </>
+    </div>
   );
 }
 

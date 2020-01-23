@@ -7,7 +7,7 @@ const Navbar = () => {
     <nav>
       <div class="logo">
         <ScrollTo selector={`#card${"home"}`}>
-          <h4>WILL MITCHELL</h4>
+          <h4>WILL SOFTWARE SOLUTIONS</h4>
         </ScrollTo>
       </div>
       <ul class="nav-links">
@@ -32,11 +32,11 @@ const Navbar = () => {
           </ScrollTo>
         </li>
       </ul>
-      {/* <div class="burger">
-            <div class="line1"></div>
-            <div class="line2"></div>
-            <div class="line3"></div>
-        </div> */}
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
     </nav>
   );
 };

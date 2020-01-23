@@ -51,7 +51,7 @@ const Skills = ({ card }) => {
               </li>
             </ul>
           </div>
-{/* //////////////////////////////////////////////////////////////////////// */}
+          {/* //////////////////////////////////////////////////////////////////////// */}
           <div class="skills-row">
             <h2 class="skills-heading-2">Mobile</h2>
             <span class="divider-mobile"></span>
@@ -76,34 +76,34 @@ const Skills = ({ card }) => {
               </li>
             </ul>
           </div>
-{/* //////////////////////////////////////////////////////////////////////// */}
+          {/* //////////////////////////////////////////////////////////////////////// */}
           <div class="skills-row">
             <h2 class="skills-heading-2">Applications</h2>
             <span class="divider-applications"></span>
             <ul class="item-list">
               <li>
-                <svg class="item-icon">
-                  <use xlinkHref={`${icons}#icon-csharp`} />
-                </svg>
+                <img
+                  src={require("../img/icon-csharp.png")}
+                  alt="https://www.pngguru.com/free-transparent-background-png-clipart-fvjvy"
+                  class="item-icon"
+                />
                 <p>C#</p>
               </li>
               <li>
-                <svg class="item-icon">
-                  <use xlinkHref={`${icons}#icon-.NET`} />
-                </svg>
+                <img
+                  src={require("../img/icon-dotnet.png")}
+                  alt="https://www.pngguru.com/free-transparent-background-png-clipart-aworh"
+                  class="item-icon"
+                />
                 <p>.NET</p>
               </li>
               <li>
-                <svg class="item-icon">
-                  <use xlinkHref={`${icons}#icon-javascript`} />
-                </svg>
-                <p>JAVASCRIPT</p>
-              </li>
-              <li>
-                <svg class="item-icon">
-                  <use xlinkHref={`${icons}#icon-react`} />
-                </svg>
-                <p>REACT</p>
+                <img
+                  src={require("../img/icon-aspnet.png")}
+                  alt="https://www.pngguru.com/free-transparent-background-png-clipart-jnjcv"
+                  class="item-icon"
+                />
+                <p>ASP.NET</p>
               </li>
             </ul>
           </div>

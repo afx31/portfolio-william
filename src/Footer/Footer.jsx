@@ -6,9 +6,7 @@ const Home = () => {
     <div class="footer">
       <div class="footer-container">
         <footer class="base-footer">
-          <p class="copyright">
-            &copy; William Mitchell 2020
-          </p>
+          <p class="copyright">&copy; William Mitchell 2020</p>
         </footer>
       </div>
     </div>

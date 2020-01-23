@@ -1,6 +1,5 @@
 import React from "react";
 import "./About.css";
-import icons from "../img/svg/sprite.svg";
 
 const About = ({ card }) => {
   const id = `card${card}`;
@@ -15,7 +14,7 @@ const About = ({ card }) => {
           <p class="about-description">
             My name is William Mitchell and I am 24 years of age from Australia.
             Of late 2019 I finished my Bachelor of Science in Information
-            Technology, Majoring in Enterprise Systems at the 
+            Technology, Majoring in Enterprise Systems at the
             <br></br>
             <a href="https://www.uts.edu.au">University of Technology Sydney</a>
             .
@@ -33,14 +32,14 @@ const About = ({ card }) => {
         </div>
         <div class="about-row">
           <h2 class="hobby-heading-2">MY OTHER INTERESTS / HOBBIES</h2>
-          <div class="about-column">            
+          <div class="about-column">
             <div class="about-card">
               <img
-                src={require("../img/icon-controller.png")}
-                alt="Controller"
+                src={require("../img/icon-mt-fuji.png")}
+                alt="Mt Fuji"
                 class="hobby-icons"
               />
-              <h5 class="hobby-heading-5">Gaming</h5>
+              <h5 class="hobby-heading-5">Japan</h5>
             </div>
           </div>
 
@@ -58,11 +57,11 @@ const About = ({ card }) => {
           <div class="about-column">
             <div class="about-card">
               <img
-                src={require("../img/icon-mt-fuji.png")}
-                alt="Mt Fuji"
+                src={require("../img/icon-controller.png")}
+                alt="Controller"
                 class="hobby-icons"
               />
-              <h5 class="hobby-heading-5">Japan</h5>
+              <h5 class="hobby-heading-5">Gaming</h5>
             </div>
           </div>
         </div>

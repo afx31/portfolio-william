@@ -1,14 +1,14 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
 
 div.about {
-  height: 100vh;
+  min-height: 100vh;
   background-color: #161616;
+  display: flex;
 }
 
 .about-container {
-  height: 100vh;
+  height: auto;
   padding-top: 5rem;
-  /* padding-left: 1rem; */
   margin-left: auto;
   margin-right: auto;
   width: 60%;

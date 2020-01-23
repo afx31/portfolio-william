@@ -1,10 +1,11 @@
 div.contact {
-  height: 60vh;
+  min-height: 60vh;
   background-color: #2e2e2e;
+  display: flex;
 }
 
 .contact-container {
-  height: 60vh;
+  height: auto;
   margin-left: auto;
   margin-right: auto;
   width: 60%;
@@ -12,13 +13,11 @@ div.contact {
   align-items: center;
   text-align: center;
   justify-content: center;
-  /* border: 1px solid red; */
 }
 
 .contact-heading-2 {
   font-size: 3rem;
   font-weight: 300;
-  /* padding: 150px; */
   color: #e2e2e2;
 }
 
@@ -35,7 +34,6 @@ div.contact {
   text-decoration: none;
   color: #a33327;
   font-size: 2rem;
-  /* transition: transform 0.25s; */
 }
 
 .icon-linkedin {
@@ -46,7 +44,7 @@ div.contact {
 }
 
 .icon-github {
-  fill: #161614; /* #161614 */
+  fill: #161614;
   height: 6rem;
   width: 6rem;
   margin: 1rem;
