@@ -12,8 +12,8 @@ const Contact = ({ card }) => {
           If you have questions or wish to get in touch, please contact me via
           the link below
         </p>
-        <a class="contact-email" href="mailto: post4wjm@gmail.com">
-          post4wjm@gmail.com
+        <a class="contact-email" href="mailto: willmitchellcodes@gmail.com">
+          Contact Me
         </a>
         <div class="contact-text">You can also find me here:</div>
         <div>

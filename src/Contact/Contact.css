@@ -1,6 +1,6 @@
 div.contact {
   min-height: 60vh;
-  background-color: #2e2e2e;
+  background-color: #f0f0f0; /* 2e2e2e  */
   display: flex;
 }
 
@@ -18,22 +18,30 @@ div.contact {
 .contact-heading-2 {
   font-size: 3rem;
   font-weight: 300;
-  color: #e2e2e2;
+  color: #000;
 }
 
 .contact-text {
   font-size: 1rem;
-  color: #e2e2e2;
+  color: #000;
   margin-top: 1.5rem;
   width: 100%;
   padding: 1rem;
-  padding-bottom: 3rem;
+  padding-bottom: 2rem;
 }
 
 .contact-email {
   text-decoration: none;
-  color: #a33327;
-  font-size: 2rem;
+  font-size: 1.8rem;
+  padding: 10px 20px;
+  color: #314455;
+  border: 2px solid #314455;
+}
+
+.contact-email:hover {
+  color: #e2e2e2;
+  background-color: #314455;
+  transition: 0.3s ease-in-out;
 }
 
 .icon-linkedin {

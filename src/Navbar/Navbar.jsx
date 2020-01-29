@@ -7,7 +7,7 @@ const Navbar = () => {
     <nav>
       <div class="logo">
         <ScrollTo selector={`#card${"home"}`}>
-          <h4>WILL SOFTWARE SOLUTIONS</h4>
+          <h4>WILL MITCHELL CODES</h4>
         </ScrollTo>
       </div>
       <ul class="nav-links">

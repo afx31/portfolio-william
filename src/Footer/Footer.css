@@ -1,6 +1,6 @@
 div.footer {
   min-height: 15vh;
-  background-color: #1d1d1d;
+  background-color: #2e2e2e;
   display: flex;
 }
 
@@ -15,7 +15,6 @@ div.footer {
 }
 
 .base-footer {
-  background-color: rgb(12, 12, 12);
   padding: 4rem;
   font-size: 1rem;
   color: #e2e2e2;

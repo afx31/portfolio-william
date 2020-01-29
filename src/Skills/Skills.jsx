@@ -11,7 +11,7 @@ const Skills = ({ card }) => {
         <div class="skills-section">
           <div class="skills-row">
             <h2 class="skills-heading-2">Web</h2>
-            <span class="divider-web"></span>
+            <hr />
             <ul class="item-list">
               <li>
                 <svg class="item-icon">
@@ -54,7 +54,7 @@ const Skills = ({ card }) => {
           {/* //////////////////////////////////////////////////////////////////////// */}
           <div class="skills-row">
             <h2 class="skills-heading-2">Mobile</h2>
-            <span class="divider-mobile"></span>
+            <hr />
             <ul class="item-list">
               <li>
                 <svg class="item-icon">
@@ -79,7 +79,7 @@ const Skills = ({ card }) => {
           {/* //////////////////////////////////////////////////////////////////////// */}
           <div class="skills-row">
             <h2 class="skills-heading-2">Applications</h2>
-            <span class="divider-applications"></span>
+            <hr />
             <ul class="item-list">
               <li>
                 <img

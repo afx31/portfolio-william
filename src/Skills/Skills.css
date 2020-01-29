@@ -1,6 +1,7 @@
 div.skills {
   min-height: 100vh;
-  background-color: #161616;
+  /* background-color: #161616; */
+  background-color: #f0f0f0;
   display: flex;
 }
 
@@ -16,38 +17,16 @@ div.skills {
 }
 
 .skills-heading-1 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 300;
   padding-bottom: 1.5rem;
-  color: #e2e2e2;
+  color: #000;
 }
 
 .skills-heading-2 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: 300;
-  color: #e2e2e2;
-}
-
-.divider-web {
-  display: block;
-  margin: 5px 0;
-  width: 120px;
-  height: 1px;
-  background-color: #e2e2e2;
-}
-.divider-mobile {
-  display: block;
-  margin: 5px 0;
-  width: 160px;
-  height: 1px;
-  background-color: #e2e2e2;
-}
-.divider-applications {
-  display: block;
-  margin: 5px 0;
-  width: 270px;
-  height: 1px;
-  background-color: #e2e2e2;
+  color: #000;
 }
 
 .skills-section {
@@ -66,7 +45,7 @@ div.skills {
   display: inline-block;
   text-align: center;
   margin: 1rem 1rem 1rem 0rem;
-  background-color: #242424;
+  background-color: #1d2731; /* 242424 */
   border-radius: 5px;
 }
 
