@@ -4,7 +4,7 @@ div.home {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-.home-image-low-res, .home-image-high-res {
+.home-image-superlow-res, .home-image-low-res, .home-image-high-res {
   min-height: inherit;
   min-width: 100%;
   position: absolute;
@@ -13,6 +13,11 @@ div.home {
   background-position: center;  
   background-repeat: no-repeat;
   background-blend-mode: multiply;  
+}
+
+.home-image-superlow-res {
+  z-index: -3;
+  background-image: url("../img/wallpaper-placeholder-2.png");
 }
 
 .home-image-low-res {

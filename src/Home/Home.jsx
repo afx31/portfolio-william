@@ -7,6 +7,7 @@ const Home = ({ card }) => {
   const id = `card${card}`;
   return (
     <div id={id} className="home">
+      <div className="home-image-superlow-res" />
       <div className="home-image-low-res" />
       <div className="home-image-high-res" />
       <div className="home-container">
