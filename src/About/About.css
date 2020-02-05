@@ -2,7 +2,6 @@
 
 div.about {
   min-height: 65vh;
-  /* background-color: #161616; */
   background-color: #ffffff;
   display: flex;
 }
@@ -18,10 +17,7 @@ div.about {
 }
 
 .about-image {
-  /* width: 20%; */
-  /* height: 20%; */
   float: left;
-  display: inline-block;
   max-width: 50%;
   height: auto;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
@@ -29,11 +25,10 @@ div.about {
 
 .about-text {
   float: right;
-  display: inline-block;
   width: 50%;
   height: auto;
   padding: 5px;
-  padding-left: 1.5rem;
+  padding: 0 1rem 0 1rem;
 }
 
 .about-heading-2 {
@@ -96,6 +91,7 @@ div.about {
   .about-text {
     width: 100%;
     margin-top: -1.5rem;
+    padding: 0 0.5rem 0 0.5rem;
   }
 
   .about-description {

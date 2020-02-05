@@ -4,10 +4,10 @@ import "./Projects.css";
 const Projects = ({ card }) => {
   const id = `card${card}`;
   return (
-    <div id={id} class="projects">
-      <div class="projects-container">
-        <h2 class="projects-heading-2">My Projects</h2>
-        <p class="projects-description">Content coming soon!</p>
+    <div id={id} className="projects">
+      <div className="projects-container">
+        <h2 className="projects-heading-2">My Projects</h2>
+        <p className="projects-description">Content coming soon!</p>
       </div>
     </div>
   );

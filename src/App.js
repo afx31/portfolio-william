@@ -13,14 +13,6 @@ const navSlide = () => {
   const nav = document.querySelector(".nav-links");
   const navLinks = document.querySelectorAll(".nav-links li");
 
-  const test = document.querySelector(".nav-links li");
-  test.addEventListener("click", () => {
-    // Collapse menu
-    nav.classList.toggle("nav-active");
-    // Burger Animation
-    burger.classList.toggle("toggle");
-  });
-
   burger.addEventListener("click", () => {
     // Toggle Nav
     nav.classList.toggle("nav-active");

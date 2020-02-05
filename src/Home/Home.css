@@ -1,13 +1,28 @@
 div.home {
   min-height: 80vh;
   display: flex;
-  background-image: url("../img/wallpaper.jpg");
+}
+
+.home-image-low-res, .home-image-high-res {
+  min-height: inherit;
+  min-width: 100%;
+  position: absolute;
   background-attachment: fixed;
   background-size: cover;
-  background-position: center;
+  background-position: center;  
   background-repeat: no-repeat;
   background-blend-mode: multiply;
   background-color: rgba(0, 0, 0, 0.5);
+}
+
+.home-image-low-res {
+  z-index: -2;
+  background-image: url("../img/wallpaper-placeholder.png");
+}
+
+.home-image-high-res {
+  z-index: -1;
+  background-image: url("../img/wallpaper.jpg");
 }
 
 .home-container {

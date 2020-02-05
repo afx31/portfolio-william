@@ -101,16 +101,16 @@ nav {
     opacity: 0;
   }
 
-  .burger {
-    display: block;
+  .nav-links p {
+    letter-spacing: normal;
+    font-size: 1rem;
     cursor: pointer;
   }
 
-  .nav-links p {
-    letter-spacing: normal;
-    font-size: 0.8rem;
+  .burger {
+    display: block;
     cursor: pointer;
-  }
+  }  
 }
 
 .nav-active {

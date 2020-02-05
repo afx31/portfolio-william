@@ -5,25 +5,25 @@ import icons from "../img/svg/sprite.svg";
 const Contact = ({ card }) => {
   const id = `card${card}`;
   return (
-    <div id={id} class="contact">
-      <div class="contact-container">
-        <div class="contact-heading-2">Get In Touch</div>
-        <p class="contact-text">
+    <div id={id} className="contact">
+      <div className="contact-container">
+        <div className="contact-heading-2">Get In Touch</div>
+        <p className="contact-text">
           If you have questions or wish to get in touch, please contact me via
           the link below
         </p>
-        <a class="contact-email" href="mailto: willmitchellcodes@gmail.com">
+        <a className="contact-email" href="mailto: willmitchellcodes@gmail.com">
           Contact Me
         </a>
-        <div class="contact-text">You can also find me here:</div>
+        <div className="contact-text">You can also find me here:</div>
         <div>
           <a href="https://www.linkedin.com/in/wmitchell2/">
-            <svg class="icon-linkedin">
+            <svg className="icon-linkedin">
               <use xlinkHref={`${icons}#icon-linkedin`} />
             </svg>
           </a>
           <a href="https://github.com/afx31">
-            <svg class="icon-github">
+            <svg className="icon-github">
               <use xlinkHref={`${icons}#icon-github`} />
             </svg>
           </a>

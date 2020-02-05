@@ -5,6 +5,7 @@ import "./Navbar.css";
 const Navbar = () => {
   const [nav, setNav] = useState("");
 
+  // Animation for navbar to decrease in size when scrolling down
   useEffect(() => {
     document.addEventListener(
       "scroll",
@@ -20,13 +21,13 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav class={nav}>
-      <div class="logo">
+    <nav className={nav}>
+      <div className="logo">
         <ScrollTo selector={`#card${"home"}`}>
           <h4>WILLIAM MITCHELL</h4>
         </ScrollTo>
       </div>
-      <ul class="nav-links">
+      <ul className="nav-links">
         <li>
           <ScrollTo selector={`#card${"about"}`}>
             <p>ABOUT</p>
@@ -48,10 +49,10 @@ const Navbar = () => {
           </ScrollTo>
         </li>
       </ul>
-      <div class="burger">
-        <div class="line1"></div>
-        <div class="line2"></div>
-        <div class="line3"></div>
+      <div className="burger">
+        <div className="line1"></div>
+        <div className="line2"></div>
+        <div className="line3"></div>
       </div>
     </nav>
   );

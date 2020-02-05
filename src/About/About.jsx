@@ -4,24 +4,24 @@ import "./About.css";
 const About = ({ card }) => {
   const id = `card${card}`;
   return (
-    <div id={id} class="about">
-      <div class="about-container">
+    <div id={id} className="about">
+      <div className="about-container">
         <div>
           <img
             src={require("../img/wireframes.jpg")}
             alt="https://www.pexels.com/photo/white-printer-paper-196645/"
-            class="about-image"
+            className="about-image"
           />
         </div>
-        <div class="about-text">
-          <h2 class="about-heading-2">A Little Bit About Me</h2>
+        <div className="about-text">
+          <h2 className="about-heading-2">A Little Bit About Me</h2>
           <hr />
-          <p class="about-description">
+          <p className="about-description">
             My name is William Mitchell and I am 24 years of age from Australia.
             Of late 2019 I finished my Bachelor of Science in Information
             Technology, Majoring in Enterprise Systems at the
             <br></br>
-            <a class="about-link" href="https://www.uts.edu.au">University of Technology Sydney</a>
+            <a className="about-link" href="https://www.uts.edu.au">University of Technology Sydney</a>
             .
             <br />
             <br />

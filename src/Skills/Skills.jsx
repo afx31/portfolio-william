@@ -5,46 +5,46 @@ import icons from "../img/svg/sprite.svg";
 const Skills = ({ card }) => {
   const id = `card${card}`;
   return (
-    <div id={id} class="skills">
-      <div class="skills-container">
-        <h1 class="skills-heading-1">MY SKILL SET</h1>
-        <div class="skills-section">
-          <div class="skills-row">
-            <h2 class="skills-heading-2">Web</h2>
+    <div id={id} className="skills">
+      <div className="skills-container">
+        <h1 className="skills-heading-1">MY SKILL SET</h1>
+        <div className="skills-section">
+          <div className="skills-row">
+            <h2 className="skills-heading-2">Web</h2>
             <hr />
-            <ul class="item-list">
+            <ul className="item-list">
               <li>
-                <svg class="item-icon">
+                <svg className="item-icon">
                   <use xlinkHref={`${icons}#icon-html5`} />
                 </svg>
                 <p>HTML5</p>
               </li>
               <li>
-                <svg class="item-icon">
+                <svg className="item-icon">
                   <use xlinkHref={`${icons}#icon-css3`} />
                 </svg>
                 <p>CSS3</p>
               </li>
               <li>
-                <svg class="item-icon">
+                <svg className="item-icon">
                   <use xlinkHref={`${icons}#icon-javascript`} />
                 </svg>
                 <p>JAVASCRIPT</p>
               </li>
               <li>
-                <svg class="item-icon">
+                <svg className="item-icon">
                   <use xlinkHref={`${icons}#icon-react`} />
                 </svg>
                 <p>REACT</p>
               </li>
               <li>
-                <svg class="item-icon">
+                <svg className="item-icon">
                   <use xlinkHref={`${icons}#icon-firebase`} />
                 </svg>
                 <p>FIREBASE</p>
               </li>
               <li>
-                <svg class="item-icon">
+                <svg className="item-icon">
                   <use xlinkHref={`${icons}#icon-node-dot-js`} />
                 </svg>
                 <p>NODE.JS</p>
@@ -52,24 +52,24 @@ const Skills = ({ card }) => {
             </ul>
           </div>
           {/* //////////////////////////////////////////////////////////////////////// */}
-          <div class="skills-row">
-            <h2 class="skills-heading-2">Mobile</h2>
+          <div className="skills-row">
+            <h2 className="skills-heading-2">Mobile</h2>
             <hr />
-            <ul class="item-list">
+            <ul className="item-list">
               <li>
-                <svg class="item-icon">
+                <svg className="item-icon">
                   <use xlinkHref={`${icons}#icon-android`} />
                 </svg>
                 <p>ANDROID</p>
               </li>
               <li>
-                <svg class="item-icon">
+                <svg className="item-icon">
                   <use xlinkHref={`${icons}#icon-react`} />
                 </svg>
                 <p>REACT NATIVE</p>
               </li>
               <li>
-                <svg class="item-icon">
+                <svg className="item-icon">
                   <use xlinkHref={`${icons}#icon-firebase`} />
                 </svg>
                 <p>RN FIREBASE</p>
@@ -77,15 +77,15 @@ const Skills = ({ card }) => {
             </ul>
           </div>
           {/* //////////////////////////////////////////////////////////////////////// */}
-          <div class="skills-row">
-            <h2 class="skills-heading-2">Applications</h2>
+          <div className="skills-row">
+            <h2 className="skills-heading-2">Applications</h2>
             <hr />
-            <ul class="item-list">
+            <ul className="item-list">
               <li>
                 <img
                   src={require("../img/icon-csharp.png")}
                   alt="https://www.pngguru.com/free-transparent-background-png-clipart-fvjvy"
-                  class="item-icon"
+                  className="item-icon"
                 />
                 <p>C#</p>
               </li>
@@ -93,7 +93,7 @@ const Skills = ({ card }) => {
                 <img
                   src={require("../img/icon-dotnet.png")}
                   alt="https://www.pngguru.com/free-transparent-background-png-clipart-aworh"
-                  class="item-icon"
+                  className="item-icon"
                 />
                 <p>.NET</p>
               </li>
@@ -101,7 +101,7 @@ const Skills = ({ card }) => {
                 <img
                   src={require("../img/icon-aspnet.png")}
                   alt="https://www.pngguru.com/free-transparent-background-png-clipart-jnjcv"
-                  class="item-icon"
+                  className="item-icon"
                 />
                 <p>ASP.NET</p>
               </li>
