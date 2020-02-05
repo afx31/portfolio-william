@@ -18,10 +18,9 @@ const About = ({ card }) => {
           <hr />
           <p className="about-description">
             My name is William Mitchell and I am 24 years of age from Australia.
-            Of late 2019 I finished my Bachelor of Science in Information
-            Technology, Majoring in Enterprise Systems at the
-            <br></br>
-            <a className="about-link" href="https://www.uts.edu.au">University of Technology Sydney</a>
+            As of late 2019 I finished my Bachelor of Science in Information
+            Technology, majoring in Enterprise Systems Development at the 
+            <a className="about-link" href="https://www.uts.edu.au"> University of Technology Sydney</a>
             .
             <br />
             <br />

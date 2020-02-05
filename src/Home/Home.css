@@ -4,30 +4,32 @@ div.home {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-.home-image-superlow-res, .home-image-low-res, .home-image-high-res {
+.home-image-superlow-res,
+.home-image-low-res,
+.home-image-high-res {
   min-height: inherit;
   min-width: 100%;
   position: absolute;
   background-attachment: fixed;
   background-size: cover;
-  background-position: center;  
+  background-position: center;
   background-repeat: no-repeat;
-  background-blend-mode: multiply;  
+  background-blend-mode: multiply;
 }
 
 .home-image-superlow-res {
   z-index: -3;
-  background-image: url("../img/wallpaper-placeholder-2.png");
+  background-image: url("../img/wallpaper-superlow-res.png");
 }
 
 .home-image-low-res {
   z-index: -2;
-  background-image: url("../img/wallpaper-placeholder.png");
+  background-image: url("../img/wallpaper-low-res.png");
 }
 
 .home-image-high-res {
   z-index: -1;
-  background-image: url("../img/wallpaper.jpg");
+  background-image: url("../img/wallpaper-high-res.jpg");
 }
 
 .home-container {
