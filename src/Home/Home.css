@@ -1,6 +1,7 @@
 div.home {
   min-height: 80vh;
   display: flex;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .home-image-low-res, .home-image-high-res {
@@ -11,8 +12,7 @@ div.home {
   background-size: cover;
   background-position: center;  
   background-repeat: no-repeat;
-  background-blend-mode: multiply;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;  
 }
 
 .home-image-low-res {
