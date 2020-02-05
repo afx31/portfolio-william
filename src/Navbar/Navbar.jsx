@@ -1,13 +1,29 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import ScrollTo from "react-scroll-into-view";
 import "./Navbar.css";
 
 const Navbar = () => {
+  const [nav, setNav] = useState("");
+
+  useEffect(() => {
+    document.addEventListener(
+      "scroll",
+      () => {
+        if (window.scrollY > 10) {
+          setNav("nav-collapse");
+        } else {
+          setNav("");
+        }
+      },
+      { capture: false, passive: true }
+    );
+  }, []);
+
   return (
-    <nav>
+    <nav class={nav}>
       <div class="logo">
         <ScrollTo selector={`#card${"home"}`}>
-          <h4>WILL MITCHELL CODES</h4>
+          <h4>WILLIAM MITCHELL</h4>
         </ScrollTo>
       </div>
       <ul class="nav-links">

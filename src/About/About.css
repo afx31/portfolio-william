@@ -63,6 +63,22 @@ div.about {
   color: #00009c;
 }
 
+@media only screen and (max-width: 1200px) {
+  .about-container {
+    width: 80%;
+  }
+
+  .about-heading-2 {
+    font-size: 1.5rem;
+  }
+
+  .about-description {
+    font-size: 0.8rem;
+    width: 100%;
+
+  }
+}
+
 @media only screen and (max-width: 768px) {
   .about-container {
     width: 100%;

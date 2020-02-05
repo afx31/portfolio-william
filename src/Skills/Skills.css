@@ -1,6 +1,5 @@
 div.skills {
   min-height: 100vh;
-  /* background-color: #161616; */
   background-color: #f0f0f0;
   display: flex;
 }
@@ -45,7 +44,7 @@ div.skills {
   display: inline-block;
   text-align: center;
   margin: 1rem 1rem 1rem 0rem;
-  background-color: #1d2731; /* 242424 */
+  background-color: #1d2731;
   border-radius: 5px;
 }
 
@@ -101,17 +100,5 @@ div.skills {
   .item-icon {
     height: 3.5rem;
     width: 3.5rem;
-  }
-
-  .divider-web {
-    width: 80px;
-  }
-
-  .divider-mobile {
-    width: 110px;
-  }
-
-  .divider-applications {
-    width: 170px;
   }
 }

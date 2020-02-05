@@ -1,6 +1,6 @@
 div.contact {
   min-height: 60vh;
-  background-color: #f0f0f0; /* 2e2e2e  */
+  background-color: #f0f0f0;
   display: flex;
 }
 
@@ -77,12 +77,12 @@ div.contact {
   }
 
   .icon-linkedin {
-    height: 4rem;
-    width: 4rem;
+    height: 3rem;
+    width: 3rem;
   }
 
   .icon-github {
-    height: 4rem;
-    width: 4rem;
+    height: 3rem;
+    width: 3rem;
   }
 }

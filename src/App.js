@@ -13,26 +13,25 @@ const navSlide = () => {
   const nav = document.querySelector(".nav-links");
   const navLinks = document.querySelectorAll(".nav-links li");
 
+  const test = document.querySelector(".nav-links li");
+  test.addEventListener("click", () => {
+    // Collapse menu
+    nav.classList.toggle("nav-active");
+    // Burger Animation
+    burger.classList.toggle("toggle");
+  });
 
-  // const test = document.querySelector(".nav-links li");
-  // test.addEventListener('click', () => {
-  //   // Upon clicking Nav Link
-  //   // Collapse menu
-  //   nav.classList.toggle('nav-active');
-  //   // Burger Animation
-  //   burger.classList.toggle("toggle");
-  // });
-
-  burger.addEventListener('click', () => {
+  burger.addEventListener("click", () => {
     // Toggle Nav
-    nav.classList.toggle('nav-active');
+    nav.classList.toggle("nav-active");
 
     // Animate Links
     navLinks.forEach((link, index) => {
       if (link.style.animation) {
         link.style.animation = "";
       } else {
-        link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7 + 0.3}s`;
+        link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7 +
+          0.3}s`;
       }
     });
 

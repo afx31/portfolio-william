@@ -2,6 +2,7 @@ div.home {
   min-height: 80vh;
   display: flex;
   background-image: url("../img/wallpaper.jpg");
+  background-attachment: fixed;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -33,8 +34,8 @@ div.home {
 }
 
 .expandarrow-icon {
-  height: 4rem;
-  width: 4rem;
+  height: 3rem;
+  width: 3rem;
   margin-top: 10rem;
   fill: #e2e2e2;
 }
