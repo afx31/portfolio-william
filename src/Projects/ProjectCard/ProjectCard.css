@@ -1,0 +1,80 @@
+.projectCard-container {
+  background-color: #1d2731;
+  margin: 2rem;
+  padding: 0.5rem 0.5rem 1.2rem 0.5rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.5);
+  transition: transform 0.2s;
+}
+
+.projectCard-container:hover {
+  transform: translateY(-0.5rem);
+}
+
+hr {
+  border: 0.5px solid white;
+  width: 80%;
+}
+
+.projectCard-container h2 {
+  font-size: 1.8rem;
+  font-weight: 300;
+  color: #e2e2e2;
+  padding: 1rem;
+}
+
+.projectCard-image {
+  width: 90%;
+  border-radius: 0.5rem;
+}
+
+.projectCard-content {
+  margin: 1rem;
+  display: flex;
+}
+
+.projectCard-content p {
+  color: #e2e2e2;
+  padding: 0.5rem 0 0 1.5rem;
+}
+
+.projectCard-description {
+  color: #e2e2e2;
+  text-align: center;
+  padding: 0rem 1.5rem 0rem 1.2rem;
+}
+
+.projectCard-links {
+  margin-top: 1rem;
+  display: flex;
+}
+
+.projectCard-btn {
+  background-color: #e2e2e2;
+  border-radius: 0.2rem;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+a:link, a:visited, a:hover, a:active {
+  color: #000;
+}
+
+.projectCard-btn:hover {
+  cursor: pointer;
+}
+
+.projectCard-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-right: 0.5rem;
+}
