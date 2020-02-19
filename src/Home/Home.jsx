@@ -3,10 +3,9 @@ import ScrollTo from "react-scroll-into-view";
 import "./Home.css";
 import icons from "../img/svg/sprite.svg";
 
-const Home = ({ card }) => {
-  const id = `card${card}`;
+const Home = () => {
   return (
-    <div id={id} className="home">
+    <div id="home" className="home">
       <div className="home-image-superlow-res" />
       <div className="home-image-low-res" />
       <div className="home-image-high-res" />
@@ -15,7 +14,7 @@ const Home = ({ card }) => {
         <p className="home-description">
           Junior Web, Mobile & Application Developer
         </p>
-        <ScrollTo selector={`#card${"about"}`}>
+        <ScrollTo selector={"#about"}>
           <svg className="expandarrow-icon">
             <use xlinkHref={`${icons}#icon-expand-arrow`} />
           </svg>

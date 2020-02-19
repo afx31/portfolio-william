@@ -2,10 +2,9 @@ import React from "react";
 import "./Contact.css";
 import icons from "../img/svg/sprite.svg";
 
-const Contact = ({ card }) => {
-  const id = `card${card}`;
+const Contact = () => {
   return (
-    <div id={id} className="contact">
+    <div id="contact" className="contact">
       <div className="contact-container">
         <div className="contact-heading-2">Get In Touch</div>
         <p className="contact-text">

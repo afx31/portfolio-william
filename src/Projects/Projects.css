@@ -30,4 +30,8 @@
   .projects-container {
     width: 100%;
   }
+
+  .projects-row-container {
+    margin: 1rem;
+  }
 }

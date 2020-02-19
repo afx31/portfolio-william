@@ -10,7 +10,7 @@ div.about {
   height: auto;
   padding-top: 7rem;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: auto;  
   width: 60%;
   align-items: center;
   justify-content: center;
@@ -70,7 +70,6 @@ div.about {
   .about-description {
     font-size: 0.8rem;
     width: 100%;
-
   }
 }
 

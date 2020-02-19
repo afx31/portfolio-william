@@ -2,112 +2,54 @@ import React from "react";
 import "./Skills.css";
 import icons from "../img/svg/sprite.svg";
 
-const Skills = ({ card }) => {
-  const id = `card${card}`;
-  return (
-    <div id={id} className="skills">
-      <div className="skills-container">
-        <h1 className="skills-heading-1">MY SKILL SET</h1>
-        <div className="skills-section">
-          <div className="skills-row">
-            <h2 className="skills-heading-2">Web</h2>
-            <hr />
-            <ul className="item-list">
-              <li>
-                <svg className="item-icon">
-                  <use xlinkHref={`${icons}#icon-html5`} />
-                </svg>
-                <p>HTML5</p>
-              </li>
-              <li>
-                <svg className="item-icon">
-                  <use xlinkHref={`${icons}#icon-css3`} />
-                </svg>
-                <p>CSS3</p>
-              </li>
-              <li>
-                <svg className="item-icon">
-                  <use xlinkHref={`${icons}#icon-javascript`} />
-                </svg>
-                <p>JAVASCRIPT</p>
-              </li>
-              <li>
-                <svg className="item-icon">
-                  <use xlinkHref={`${icons}#icon-react`} />
-                </svg>
-                <p>REACT</p>
-              </li>
-              <li>
-                <svg className="item-icon">
-                  <use xlinkHref={`${icons}#icon-firebase`} />
-                </svg>
-                <p>FIREBASE</p>
-              </li>
-              <li>
-                <svg className="item-icon">
-                  <use xlinkHref={`${icons}#icon-node-dot-js`} />
-                </svg>
-                <p>NODE.JS</p>
-              </li>
-            </ul>
-          </div>
-          {/* //////////////////////////////////////////////////////////////////////// */}
-          <div className="skills-row">
-            <h2 className="skills-heading-2">Mobile</h2>
-            <hr />
-            <ul className="item-list">
-              <li>
-                <svg className="item-icon">
-                  <use xlinkHref={`${icons}#icon-android`} />
-                </svg>
-                <p>ANDROID</p>
-              </li>
-              <li>
-                <svg className="item-icon">
-                  <use xlinkHref={`${icons}#icon-react`} />
-                </svg>
-                <p>REACT NATIVE</p>
-              </li>
-              <li>
-                <svg className="item-icon">
-                  <use xlinkHref={`${icons}#icon-firebase`} />
-                </svg>
-                <p>RN FIREBASE</p>
-              </li>
-            </ul>
-          </div>
-          {/* //////////////////////////////////////////////////////////////////////// */}
-          <div className="skills-row">
-            <h2 className="skills-heading-2">Applications</h2>
-            <hr />
-            <ul className="item-list">
-              <li>
-                <img
-                  src={require("../img/icon-csharp.png")}
-                  alt="https://www.pngguru.com/free-transparent-background-png-clipart-fvjvy"
-                  className="item-icon"
-                />
-                <p>C#</p>
-              </li>
-              <li>
-                <img
-                  src={require("../img/icon-dotnet.png")}
-                  alt="https://www.pngguru.com/free-transparent-background-png-clipart-aworh"
-                  className="item-icon"
-                />
-                <p>.NET</p>
-              </li>
-              <li>
-                <img
-                  src={require("../img/icon-aspnet.png")}
-                  alt="https://www.pngguru.com/free-transparent-background-png-clipart-jnjcv"
-                  className="item-icon"
-                />
-                <p>ASP.NET</p>
-              </li>
-            </ul>
-          </div>
+const webSkills = [
+  { name: "HTML5", svgName: "#icon-html5" },
+  { name: "CSS3", svgName: "#icon-css3" },
+  { name: "Javascript", svgName: "#icon-javascript" },
+  { name: "NodeJS", svgName: "#icon-node-js" },
+  { name: "React", svgName: "#icon-react" },
+  { name: "Firebase", svgName: "#icon-firebase" },
+  { name: "MongoDB", svgName: "#icon-mongodb" }
+];
+const mobileSkills = [
+  { name: "Android", svgName: "#icon-android" },
+  { name: "React Native", svgName: "#icon-react" },
+  { name: "RN Firebase", svgName: "#icon-firebase" }
+];
+const appSkills = [
+  { name: "Java", svgName: "#icon-java" },
+  { name: "C#", svgName: "#icon-csharp" },
+  { name: "C++", svgName: "#icon-cplusplus" },
+  { name: ".NET", svgName: "#icon-dot-net" },
+  { name: "ASP.NET", svgName: "#icon-dot-net" }
+];
+
+const Skills = () => {
+  const showColumns = (name, array) => {
+    return (
+      <div className="skills-column">
+        <h1 className="skills-category-title">{name}</h1>
+        <div className="skills-svg-container">
+          {array.map((svg, i) => (
+            <div key={i} className="skills-card">
+              <svg className="skills-svg">
+                <use xlinkHref={`${icons}${svg.svgName}`} />
+              </svg>
+              <h1 className="skills-svg-name">{svg.name}</h1>
+            </div>
+          ))}
         </div>
+      </div>
+    );
+  };
+
+  return (
+    <div id="skills" className="skills-container">
+      <h1 className="skills-title">What I Have Learned</h1>
+      <div className="skills-row">
+        {showColumns("Web", webSkills)}
+        {showColumns("Mobile", mobileSkills)}
+        {showColumns("Applications", appSkills)}
       </div>
     </div>
   );

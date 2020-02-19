@@ -1,10 +1,9 @@
 import React from "react";
 import "./About.css";
 
-const About = ({ card }) => {
-  const id = `card${card}`;
+const About = () => {
   return (
-    <div id={id} className="about">
+    <div id="about" className="about">
       <div className="about-container">
         <div>
           <img
@@ -19,8 +18,11 @@ const About = ({ card }) => {
           <p className="about-description">
             My name is William Mitchell and I am 24 years of age from Australia.
             As of late 2019 I finished my Bachelor of Science in Information
-            Technology, majoring in Enterprise Systems Development at the 
-            <a className="about-link" href="https://www.uts.edu.au"> University of Technology Sydney</a>
+            Technology, majoring in Enterprise Systems Development at the
+            <a className="about-link" href="https://www.uts.edu.au">
+              {" "}
+              University of Technology Sydney
+            </a>
             .
             <br />
             <br />

@@ -15,11 +15,6 @@
   transform: translateY(-0.5rem);
 }
 
-hr {
-  border: 0.5px solid white;
-  width: 80%;
-}
-
 .projectCard-container h2 {
   font-size: 1.8rem;
   font-weight: 300;
@@ -65,7 +60,10 @@ hr {
   margin-left: 1rem;
 }
 
-a:link, a:visited, a:hover, a:active {
+a:link,
+a:visited,
+a:hover,
+a:active {
   color: #000;
 }
 
@@ -77,4 +75,56 @@ a:link, a:visited, a:hover, a:active {
   width: 1.5rem;
   height: 1.5rem;
   margin-right: 0.5rem;
+}
+
+@media only screen and (max-width: 1200px) {
+  .projectCard-container {
+    width: 40%;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .projectCard-container {
+    width: 60%;
+    margin: 0.4rem;
+    margin-bottom: 1rem;
+  }
+}
+
+@media only screen and (max-width: 769px) {
+  .projectCard-container {
+    width: 70%;
+    margin: 0.4rem;
+    margin-bottom: 1rem;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  .projectCard-container {
+    width: 100%;
+    margin: 0.4rem;
+    margin-bottom: 1rem;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .projectCard-container {
+    min-width: 130%;
+  }
+
+  .projectCard-content {
+    display: block;
+  }
+
+  .projectCard-content p {
+    padding: 0.2rem;
+  }
+
+  .projectCard-links {
+    display: block;
+  }
+
+  .projectCard-btn {
+    margin-bottom: 1rem;
+  }
 }

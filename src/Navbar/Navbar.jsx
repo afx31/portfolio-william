@@ -23,28 +23,28 @@ const Navbar = () => {
   return (
     <nav className={nav}>
       <div className="logo">
-        <ScrollTo selector={`#card${"home"}`}>
+        <ScrollTo selector={"#home"}>
           <h4>WILLIAM MITCHELL</h4>
         </ScrollTo>
       </div>
       <ul className="nav-links">
         <li>
-          <ScrollTo selector={`#card${"about"}`}>
+          <ScrollTo selector={"#about"}>
             <p>ABOUT</p>
           </ScrollTo>
         </li>
         <li>
-          <ScrollTo selector={`#card${"skills"}`}>
+          <ScrollTo selector={"#skills"}>
             <p>SKILLS</p>
           </ScrollTo>
         </li>
         <li>
-          <ScrollTo selector={`#card${"projects"}`}>
+          <ScrollTo selector={"#projects"}>
             <p>PROJECTS</p>
           </ScrollTo>
         </li>
         <li>
-          <ScrollTo selector={`#card${"contact"}`}>
+          <ScrollTo selector={"#contact"}>
             <p>CONTACT</p>
           </ScrollTo>
         </li>

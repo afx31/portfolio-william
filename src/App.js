@@ -39,12 +39,12 @@ function App() {
 
   return (
     <div class="app-container">
-      <Navbar cards={5} />
-      <Home card="home" />
-      <About card="about" />
-      <Skills card="skills" />
-      <Projects card="projects" />
-      <Contact card="contact" />
+      <Navbar />
+      <Home />
+      <About />
+      <Skills />
+      <Projects />
+      <Contact />
       <Footer />
     </div>
   );
