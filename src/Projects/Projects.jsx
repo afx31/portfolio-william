@@ -19,7 +19,7 @@ const Projects = () => {
       title: "My Portfolio",
       image: portfolioImage,
       demoLink: "https://afx31.github.io/portfolio-william/",
-      githubLink: "https://github.com/afx31/information-grid-website",
+      githubLink: "https://github.com/afx31/portfolio-william",
       description:
         "The website your currently viewing! My portfolio built in React using a Scroll package to assist with smooth transitioning when scrolling between each page. It contains my past projects and skillset.",
       languages: ["HTML", "CSS", "JavaScript", "React"]
