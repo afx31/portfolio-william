@@ -1,31 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "31c2cea1881595c53347653cdfcc5575",
+    "revision": "3eb7d159c8efb9248c0e0000e9b3184e",
     "url": "/portfolio-william/index.html"
   },
   {
-    "revision": "72f3b9d766e6597b766b",
-    "url": "/portfolio-william/static/css/main.ae013824.chunk.css"
+    "revision": "76c752e3eb2f2797926f",
+    "url": "/portfolio-william/static/css/main.3f9e61aa.chunk.css"
   },
   {
-    "revision": "33abd4a58a97f29e6639",
-    "url": "/portfolio-william/static/js/2.8f0417d8.chunk.js"
+    "revision": "3d0a2f5393e90d8ed8cb",
+    "url": "/portfolio-william/static/js/2.3756f1ca.chunk.js"
   },
   {
-    "revision": "d705cb622423d72c5defbf368ca70dcc",
-    "url": "/portfolio-william/static/js/2.8f0417d8.chunk.js.LICENSE"
+    "revision": "99bd0487192ec9e7d9ee8fbbd91ee444",
+    "url": "/portfolio-william/static/js/2.3756f1ca.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "72f3b9d766e6597b766b",
-    "url": "/portfolio-william/static/js/main.4f211645.chunk.js"
+    "revision": "76c752e3eb2f2797926f",
+    "url": "/portfolio-william/static/js/main.94f1a7a9.chunk.js"
   },
   {
-    "revision": "e015bdfd745c1812a49e",
-    "url": "/portfolio-william/static/js/runtime-main.5a6ee2aa.js"
+    "revision": "e568a8d403b732dafc9d",
+    "url": "/portfolio-william/static/js/runtime-main.7bff6f9c.js"
   },
   {
     "revision": "2af7fc9117fe5da76dc2132ba1226b7d",
     "url": "/portfolio-william/static/media/gridtemplateImage.2af7fc91.png"
+  },
+  {
+    "revision": "c75d3712d75ed04b3a3ee7a695df8578",
+    "url": "/portfolio-william/static/media/mernImage.c75d3712.png"
   },
   {
     "revision": "30e409133778d2d75d951f6469fe5f09",
