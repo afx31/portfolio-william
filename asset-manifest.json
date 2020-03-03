@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/portfolio-william/static/css/main.d9ffb593.chunk.css",
-    "main.js": "/portfolio-william/static/js/main.e8d3eaab.chunk.js",
-    "main.js.map": "/portfolio-william/static/js/main.e8d3eaab.chunk.js.map",
+    "main.css": "/portfolio-william/static/css/main.733731e7.chunk.css",
+    "main.js": "/portfolio-william/static/js/main.457ace75.chunk.js",
+    "main.js.map": "/portfolio-william/static/js/main.457ace75.chunk.js.map",
     "runtime-main.js": "/portfolio-william/static/js/runtime-main.7bff6f9c.js",
     "runtime-main.js.map": "/portfolio-william/static/js/runtime-main.7bff6f9c.js.map",
-    "static/js/2.3756f1ca.chunk.js": "/portfolio-william/static/js/2.3756f1ca.chunk.js",
-    "static/js/2.3756f1ca.chunk.js.map": "/portfolio-william/static/js/2.3756f1ca.chunk.js.map",
+    "static/js/2.59c36957.chunk.js": "/portfolio-william/static/js/2.59c36957.chunk.js",
+    "static/js/2.59c36957.chunk.js.map": "/portfolio-william/static/js/2.59c36957.chunk.js.map",
     "index.html": "/portfolio-william/index.html",
-    "precache-manifest.c259b60ffe01b82a7d2145c190a5b298.js": "/portfolio-william/precache-manifest.c259b60ffe01b82a7d2145c190a5b298.js",
+    "precache-manifest.fef98d08af27ace91146ca291588a13c.js": "/portfolio-william/precache-manifest.fef98d08af27ace91146ca291588a13c.js",
     "service-worker.js": "/portfolio-william/service-worker.js",
-    "static/css/main.d9ffb593.chunk.css.map": "/portfolio-william/static/css/main.d9ffb593.chunk.css.map",
-    "static/js/2.3756f1ca.chunk.js.LICENSE.txt": "/portfolio-william/static/js/2.3756f1ca.chunk.js.LICENSE.txt",
+    "static/css/main.733731e7.chunk.css.map": "/portfolio-william/static/css/main.733731e7.chunk.css.map",
+    "static/js/2.59c36957.chunk.js.LICENSE.txt": "/portfolio-william/static/js/2.59c36957.chunk.js.LICENSE.txt",
     "static/media/gridtemplateImage.png": "/portfolio-william/static/media/gridtemplateImage.2af7fc91.png",
     "static/media/mernImage.png": "/portfolio-william/static/media/mernImage.c75d3712.png",
     "static/media/portfolioImage.png": "/portfolio-william/static/media/portfolioImage.30e40913.png",
-    "static/media/sprite.svg": "/portfolio-william/static/media/sprite.43476b99.svg",
+    "static/media/sprite.svg": "/portfolio-william/static/media/sprite.22b73915.svg",
     "static/media/Home.css": "/portfolio-william/static/media/wallpaper-superlow-res.a963da40.png",
     "static/media/wireframes.jpg": "/portfolio-william/static/media/wireframes.ccd334c8.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.7bff6f9c.js",
-    "static/js/2.3756f1ca.chunk.js",
-    "static/css/main.d9ffb593.chunk.css",
-    "static/js/main.e8d3eaab.chunk.js"
+    "static/js/2.59c36957.chunk.js",
+    "static/css/main.733731e7.chunk.css",
+    "static/js/main.457ace75.chunk.js"
   ]
 }
