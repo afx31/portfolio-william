@@ -18,22 +18,21 @@ const Home = () => {
       setText(text.slice(0,-1));
     }
     if(startType && text.length < textToType[indexToType].length ) {
-      // console.log('start typing');
       setTimeout(()=>{setTimeout(typeText(),500)},100);
     } else if(startType && text.length === textToType[indexToType].length) {
-      // console.log('Stop typing');
       setStartType(false);
       setTimeout(()=>{setTimeout(setStartDelete(true),100)},1000);
     }
     if(startDelete && text.length > 0) {
-      // console.log('Start deleting');
       setTimeout(()=>{setTimeout(deleteText(),500)},100);
-    } else if(startDelete && text.length === 0) {
-      // console.log('Stop deleting');
+    } else if (startDelete && text.length === 0) {
       setStartDelete(false);
       setTimeout(()=>{setTimeout(() => {
-        if(indexToType===0) {
+        // Change index for next text swtich in array
+        if (indexToType === 0) {
           type(1);
+        } else if (indexToType === 1) {
+          type(2);
         } else {
           type(0);
         }
