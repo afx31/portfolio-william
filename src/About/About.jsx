@@ -3,12 +3,13 @@ import "./About.css";
 
 const About = () => {
   return (
-    <div id="about" className="about">
-      <div className="about-container">
+    <div id="about" className="about-container">
+      <div className="about-inner-container">
         <div>
           <img
             src={require("../img/wireframes.jpg")}
-            alt="https://www.pexels.com/photo/white-printer-paper-196645/"
+            /* https://www.pexels.com/photo/white-printer-paper-196645/ */
+            alt=""
             className="about-image"
           />
         </div>

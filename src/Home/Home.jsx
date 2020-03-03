@@ -1,19 +1,67 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import ScrollTo from "react-scroll-into-view";
 import "./Home.css";
 import icons from "../img/svg/sprite.svg";
 
 const Home = () => {
+  let [text, setText] = useState("");
+  let [startType, setStartType] = useState(false);
+  let [startDelete, setStartDelete] = useState(false);
+  let [indexToType, setIndexToType] = useState(null);
+  const textToType = ["Web", "Mobile", "Application"];
+
+  useEffect(() => {
+    const typeText = () => {
+      setText(text+=textToType[indexToType].charAt(text.length));
+    }
+    const deleteText = () => {
+      setText(text.slice(0,-1));
+    }
+    if(startType && text.length < textToType[indexToType].length ) {
+      // console.log('start typing');
+      setTimeout(()=>{setTimeout(typeText(),500)},100);
+    } else if(startType && text.length === textToType[indexToType].length) {
+      // console.log('Stop typing');
+      setStartType(false);
+      setTimeout(()=>{setTimeout(setStartDelete(true),100)},1000);
+    }
+    if(startDelete && text.length > 0) {
+      // console.log('Start deleting');
+      setTimeout(()=>{setTimeout(deleteText(),500)},100);
+    } else if(startDelete && text.length === 0) {
+      // console.log('Stop deleting');
+      setStartDelete(false);
+      setTimeout(()=>{setTimeout(() => {
+        if(indexToType===0) {
+          type(1);
+        } else {
+          type(0);
+        }
+      },200)},200);
+    }
+  },[startDelete, startType, text.length]);
+
+  const type = (index) => {
+    setIndexToType(index);
+    setStartType(true);
+  };
+  
+  useEffect(() => {
+    type(0);
+  },[]);
+
   return (
-    <div id="home" className="home">
+    <div id="home" className="home-container">
       <div className="home-image-superlow-res" />
       <div className="home-image-low-res" />
       <div className="home-image-high-res" />
-      <div className="home-container">
+      <div className="home-text">
         <h2 className="home-heading-2">HI, I'M WILL</h2>
-        <p className="home-description">
-          Junior Web, Mobile & Application Developer
-        </p>
+        <div className="home-description">
+          <span className="home-normal-text">Junior&nbsp;</span>
+          <span className="home-typing-text">{text}</span>          
+          <span className="home-normal-text"> Developer &nbsp;</span>
+        </div>
         <ScrollTo selector={"#about"}>
           <svg className="expandarrow-icon">
             <use xlinkHref={`${icons}#icon-expand-arrow`} />

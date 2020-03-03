@@ -24,7 +24,7 @@ const Navbar = () => {
     <nav className={nav}>
       <div className="logo">
         <ScrollTo selector={"#home"}>
-          <h4>WILLIAM MITCHELL</h4>
+          <h4>William Mitchell</h4>
         </ScrollTo>
       </div>
       <ul className="nav-links">

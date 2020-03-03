@@ -1,5 +1,6 @@
-div.home {
+.home-container {
   min-height: 80vh;
+  min-width: 100%;
   display: flex;
   position: relative;
   background-color: rgba(0, 0, 0, 0.5);
@@ -33,7 +34,7 @@ div.home {
   background-image: url("../img/wallpaper-high-res.jpg");
 }
 
-.home-container {
+.home-text {
   height: auto;
   margin-left: auto;
   margin-right: auto;
@@ -54,6 +55,7 @@ div.home {
 .home-description {
   padding: 1.5rem;
   color: #e2e2e2;
+  font-size: 1.3rem;
 }
 
 .expandarrow-icon {
@@ -69,9 +71,13 @@ div.home {
 }
 
 @media only screen and (max-width: 768px) {
-  .home-container {
+  .home-text {
     padding-top: 10rem;
     width: 80%;
+  }
+
+  .home-description {
+    font-size: 1rem;
   }
 
   .expandarrow-icon {

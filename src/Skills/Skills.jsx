@@ -6,8 +6,9 @@ const webSkills = [
   { name: "HTML5", svgName: "#icon-html5" },
   { name: "CSS3", svgName: "#icon-css3" },
   { name: "Javascript", svgName: "#icon-javascript" },
-  { name: "NodeJS", svgName: "#icon-node-js" },
   { name: "React", svgName: "#icon-react" },
+  { name: "Node.js", svgName: "#icon-node-js" },
+  { name: "Express.js", svgName: "#icon-expressjs" },
   { name: "Firebase", svgName: "#icon-firebase" },
   { name: "MongoDB", svgName: "#icon-mongodb" }
 ];
