@@ -1,13 +1,13 @@
 div.home {
   min-height: 80vh;
   display: flex;
+  position: relative;
   background-color: rgba(0, 0, 0, 0.5);
 }
 
 .home-image-superlow-res,
 .home-image-low-res,
 .home-image-high-res {
-  /* min-height: inherit; */
   min-width: 100%;
   min-height: 100%;
   position: absolute;

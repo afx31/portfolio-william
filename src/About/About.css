@@ -4,11 +4,13 @@ div.about {
   min-height: 65vh;
   background-color: #ffffff;
   display: flex;
+  position: relative;
 }
 
 .about-container {
-  height: auto;
+  min-height: auto;
   padding-top: 7rem;
+  padding-bottom: 2rem;
   margin-left: auto;
   margin-right: auto;  
   width: 60%;
